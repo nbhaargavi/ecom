@@ -15,7 +15,6 @@ export default function Basket(props) {
               <button onClick={() => onRemove(item)} className="remove">
                 -
               </button>
-              {/* {' '} */}
               <button onClick={() => onAdd(item)} className="add">
                 +
               </button>

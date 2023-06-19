@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+ }
+img{
+  margin-top: 10%;
+  display:flex;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black; 
+}
+button{
+  margin-top: 4%;
+  padding: 0.3rem;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color: lavender;
+  width:160px;
+  cursor:pointer;
+}
+button.add{
+  background-color: rgb(151, 253, 219);
+  width:1.5rem;
+}
+button.remove{
+  background-color: rgb(236, 69, 69);
+  width:1.5rem;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-1{
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  flex:1;
+} 
+.col-2{
+  flex:2;
+}
+.block{
+  background-color: rgb(222, 222, 249);
+  padding: 1rem;
+  margin:0.5rem;
+}
